@@ -11,7 +11,7 @@ import com.tut.Student;
 
 public class CriteriaExample {
 	public static void main(String[] args) {
-		
+		Boolean b =true;
 		Session s = new Configuration().configure().buildSessionFactory().openSession();
 		
 		Criteria c=s.createCriteria(Student.class);
