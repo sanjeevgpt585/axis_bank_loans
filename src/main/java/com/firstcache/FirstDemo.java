@@ -13,7 +13,7 @@ public class FirstDemo {
 
 		int a =10;
 
-
+		System.out.println("first Demo");
 		SessionFactory factory = new Configuration().configure().buildSessionFactory();
 		Session session = factory.openSession();
 		// by default enabled
