@@ -21,6 +21,7 @@ public class FirstDemo {
 		
 		Student student1 = session.get(Student.class,12424);
 		System.out.println(student1);
+		System.out.println(student2);	
 		
 		System.out.println(session.contains(student1));
 
