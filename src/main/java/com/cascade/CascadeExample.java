@@ -40,5 +40,6 @@ public class CascadeExample {
 		tx.commit();
 		s.close();
 		factory.close();
+		System.out.println("End of the code");
 	}
 }
