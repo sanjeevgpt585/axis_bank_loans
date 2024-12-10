@@ -29,7 +29,7 @@ public class CascadeExample {
 		list.add(a1);
 		list.add(a2);
 		list.add(a3);
-		
+		int a=10;
 		
 		q1.setAnswers(list);
 		Transaction tx = s.beginTransaction();
@@ -40,5 +40,6 @@ public class CascadeExample {
 		tx.commit();
 		s.close();
 		factory.close();
+		
 	}
 }
