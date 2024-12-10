@@ -22,7 +22,10 @@ public class HQLPegination {
 		query.setFirstResult(10);
 
 		query.setMaxResults(7);
+		int b = 12;
+
 		int a=10;
+
 
 		List<Student> list = query.list();
 
