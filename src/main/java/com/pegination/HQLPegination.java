@@ -23,6 +23,10 @@ public class HQLPegination {
 
 		query.setMaxResults(7);
 		int b = 12;
+
+		int a=10;
+
+
 		List<Student> list = query.list();
 
 		for (Student st : list) {
