@@ -8,7 +8,11 @@ import com.tut.Student;
 
 public class FirstDemo {
 	public static void main(String[] args) {
+
+		int b = 20;
+
 		int a =10;
+
 
 		SessionFactory factory = new Configuration().configure().buildSessionFactory();
 		Session session = factory.openSession();
